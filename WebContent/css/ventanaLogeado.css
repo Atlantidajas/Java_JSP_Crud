@@ -1,0 +1,32 @@
+* {
+	margin: 0px;
+	paddind: 0px;
+	border-color: #0D6642;
+}
+
+body {
+	display: block;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+p{
+	position: relative;
+	margin: auto;
+	display: block;
+	width: 60%;
+	padding: 0 10px;
+	background: #DEECE7;
+}
+h1{
+	position: relative;
+	display: block;
+	margin: auto;
+}
+a{
+	position: relative;
+	margin: auto;
+	display: block;
+	width: 100%; 
+	padding: 0 10px;
+}

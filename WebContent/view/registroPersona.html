@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../css/registroPersona.css" rel="stylesheet" type="text/css">
+    <title>Registro Personas</title>
+</head>
+<body>
+
+		<form action="../../E4/PostDerivador" method="post">
+
+
+		<fieldset>
+
+			<legend>Formulario de registro</legend>
+
+			<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" class="inputText" id="nombre" placeholder="Solo nombre" value=""> 
+			
+			<label for="apellidos">Apellidos</label>
+				<input type="text" name="apellidos" class="inputText" id="apellidos" placeholder="Sus dos apellidos" value="">
+				
+		    <label for="dni"><span class="campoRequerido">*</span>Documento de identidad</label>
+		    	<input type="text" name="dni" class="inputText" id="dni" placeholder="DNI + Letra" value="" required> 
+		    	
+		    <label for="email"><span class="campoRequerido">*</span>Correo electrónico</label>
+		    	<input type="email" name="emailPersonal" class="inputEmail" id="emailPersonal" placeholder="E-mail" value="" required>
+		    
+		    <label for="telefonoPersonal">Teléfono</label>
+				<input type="tel" name="telefonoPersonal" class="inputText" id="telefonoPersonal" placeholder="Número teléfono" value="">
+				
+		    <label for="edad"><span class="campoRequerido">*</span>Edad</label>
+		    	<input type="text" name="edad" class="inputText" id="edad" placeholder="Edad" value="">
+
+		<fieldset id="fieldsetGenero">
+
+				<legend>
+						Género
+				</legend>
+
+				<select name="genero" class="inputMultiple" id="genero">
+					<option value="null" id="generoNull">Seleccione</option>
+					<option value="femenino" id="generoFemenino">Femenino</option>
+					<option value="masculino" id="generoMasculino">Masculino</option>
+				</select>
+
+			</fieldset>
+
+			<label for="nombreCalle">Calle</label> 
+				<input type="text" name="nombreCalle" class="inputText" id="nombreCalle" placeholder="Nombre de la calle" value="">
+				
+			<label for="numerocalle">Número</label>
+				<input type="text" name="numeroCalle" class="inputText" id="numeroCalle" placeholder="Número de la calle" value="">
+			
+			<label for="codigoPostal"><span class="campoRequerido">*</span>Código postal</label>
+				<input type="text" name="codigoPostal" class="inputText" id="codigoPostal" placeholder="Número postal" value="" required>
+				
+			<label for="municipio">Municipio</label>
+				<input type="text" name="municipio" class="inputText" id="municipio" placeholder="Municipio" value="">
+				
+			<label for="provincia">Provincia</label>
+				<input type="text" name="provincia" class="inputText" id="provincia" placeholder="Provincia" value="">
+				
+		    <label for="contrasena"><span class="campoRequerido">*</span>Contraseña</label>
+		    	<input type="password" name="contrasena" class="inputPassword" id="contrasena" placeholder="Que contraseña desea" value="" required>
+		    	
+		    <label for="contrasenaConfirmar"><span class="campoRequerido">*</span>Confirme Contraseña</label>
+		    	<input type="password" class="inputPassword" id="contrasenaConfirmar" placeholder="Repita contraseña" value="" required>
+		    	
+		    <label class="condicionesDatosPersonales"><span class="campoRequerido">*</span>Acepta condiciones</label>
+		    	<input type="checkbox" class="inputCheckbox" id="condicionesDatosPersonales" checked="checked" value="" required>
+		    	
+				 <input type="submit" name="registrar" class="inputButton" value="Registrar">
+
+		</fieldset>
+
+	</form>
+
+</body>
+</html>

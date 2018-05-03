@@ -1,0 +1,34 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+}
+table{
+    color: white;
+    position: relative;
+    background-color: powderblue;
+}
+tr{
+    border-bottom-color: #A4A4A4;
+    border: solid 2px;
+}
+input{
+	height: 30px;
+}
+caption{
+ 	position: relative;
+ 	width: 100%;
+ 	height: 4px;
+ 	boder: solid 2px #A4A4A4;
+    background-color: #A4A4A4;
+}
+
+input.inputButton{
+    background-color: #FAFAFA;
+    color: #8181F7;
+}

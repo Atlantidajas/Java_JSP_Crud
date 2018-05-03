@@ -1,0 +1,68 @@
+* {
+	margin: 0px;
+	paddind: 0px;
+	border-color: #A4A4A4;
+}
+
+body {
+	display: block;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	color: #A4A4A4;
+}
+
+.campoRequerido {
+	color: red;
+	font-size: 1.2em;
+}
+
+form {
+	display: block;
+	margin: auto;
+	position: relative;
+	width: 35%;
+	background-color: powderblue;
+}
+
+fieldset {
+	background-color: #DEECE7;
+}
+
+fieldset>#fieldsetGenero {
+	width: 15%;
+}
+
+input {
+	display: block;
+	height: 20px;
+	position: relative;
+	width: 95%;
+	height: 30px;
+}
+
+.inputButton {
+	display: inline-block;
+	width: 30%;
+	margin: 4% 32%;
+	background-color: #8181F7;
+	color: white;
+}
+h1{
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.condicionesDatosPersonales {
+	display: block;
+	width: 92%;
+	text-align: center;
+	padding: 2%;
+	color: #FAFAFA;
+}
+.formLogueado{
+	display: block;
+	margin: 20% auto;
+}
